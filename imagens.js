@@ -9,14 +9,14 @@ let somDaColisao;
 let somDoPonto;
 
 function preload(){
-  imagemDaEstrada = loadImage("imagens/estrada.png");
-  imagemDoGus = loadImage("imagens/gus-1.png");
-  imagemCovid = loadImage("imagens/covid-1.gif");
-  imagemCovid2 = loadImage("imagens/covid-2.gif");
-  imagemCovid3 = loadImage("imagens/covid-3.gif");  
+  imagemDaEstrada = loadImage("estrada.png");
+  imagemDoGus = loadImage("gus-1.png");
+  imagemCovid = loadImage("covid-1.gif");
+  imagemCovid2 = loadImage("covid-2.gif");
+  imagemCovid3 = loadImage("covid-3.gif");  
   imagemCovids = [imagemCovid, imagemCovid2, imagemCovid3, imagemCovid, imagemCovid2, imagemCovid3]
   
-  somDaTrilha = loadSound("sons/BumBumTamTam.mp3");
-  somDaColisao = loadSound("sons/colidiu.mp3");
-  somDoPonto = loadSound("sons/pontos.wav");
+  somDaTrilha = loadSound("BumBumTamTam.mp3");
+  somDaColisao = loadSound("colidiu.mp3");
+  somDoPonto = loadSound("pontos.wav");
 }
